@@ -28,7 +28,7 @@ public class Driver : MonoBehaviour
         }
     }
 
-    //slow down
+    //slow down when bump at anything
     void OnCollisionEnter2D(Collision2D other)
     {
         moveSpeed = slow;
